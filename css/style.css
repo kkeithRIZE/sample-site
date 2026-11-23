@@ -1,0 +1,45 @@
+/* Tag selectors: apply to every matching element */
+body {
+  background-color: #f7f9fb;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 16px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+/* Class selector: reusable on many elements */
+.tool-card {
+  background-color: #ffffff;
+  border: 1px solid #c9d3dd;
+  padding: 16px;
+  flex: 1;
+}
+
+.tip {
+  font-style: italic;
+  color: #2f5d50;
+}
+
+/* ID selectors: one element per page */
+#site-header {
+  background-color: #1f3a5f;
+  color: #ffffff;
+  padding: 12px;
+}
+
+#site-footer {
+  border-top: 2px solid #1f3a5f;
+  margin-top: 24px;
+}
+
+/* Flexbox container: children sit in a row with space between them */
+.tool-grid {
+  display: flex;
+  gap: 16px;
+}
